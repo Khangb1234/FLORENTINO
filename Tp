@@ -11,7 +11,7 @@ Open.Name = "Open"
 Open.Parent = ScreenGui
 Open.BackgroundColor3 = Color3.fromRGB(53, 7, 0)
 Open.Position = UDim2.new(0.105446115, 0, 0.0522088371, 0)
-Open.Size = UDim2.new(0, 58, 0, 33)
+Open.Size = UDim2.new(0, 48, 0, 33)
 Open.Font = Enum.Font.SourceSans
 Open.Text = ""
 Open.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -7620,7 +7620,7 @@ end)
     end)
     
  Setting:Seperator("Setting")
-Setting:Toggle("Auto Set Spawn Points",true,function(value)
+Setting:Toggle("Auto Set Spawn Points",false,function(value)
  _G.AutoSetSpawn = value
  end)
 
@@ -7706,7 +7706,7 @@ Setting:Toggle("Bring Mob Fast",true,function(Mag)
         end
     end)
     
- Setting:Toggle("Bring Mob Ultra",true,function(Mag)
+ Setting:Toggle("Bring Mob Ultra",false,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
