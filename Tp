@@ -120,11 +120,11 @@ UserInputService.InputChanged:Connect(
 end
 _G.BGColor_1 = Color3.fromRGB(44, 0, 0)
 _G.BGColor_2 = Color3.fromRGB(161, 45, 10)
-_G.Color = Color3.fromRGB(255, 255, 255)
+_G.Color = Color3.fromRGB(146, 3, 3)
 _G.WindowBackgroundColor = Color3.fromRGB(77,8,3)
 _G.BackgroundItemColor = Color3.fromRGB(20, 20, 20)
 _G.TabWindowColor = Color3.fromRGB(30, 30, 30)
-_G.ContainerColor = Color3.fromRGB(30, 30, 30)
+_G.ContainerColor = Color3.fromRGB(68, 78, 4)
 _G.TitleTextColor = Color3.fromRGB(150, 150, 150)
 _G.ImageColor = Color3.fromRGB(150, 150, 150)
 _G.LineThemeColor = Color3.fromRGB(150, 150, 150)
