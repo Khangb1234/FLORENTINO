@@ -29,7 +29,7 @@ LOGO1.BackgroundColor3 = Color3.fromRGB(16, 2, 4)
 LOGO1.BackgroundTransparency = 0.300
 LOGO1.Position = UDim2.new(-0.115384616, 0, -0.245283023, 0)
 LOGO1.Size = UDim2.new(0, 55, 0, 38)
-LOGO1.Image = "rbxassetid://11357867136"
+LOGO1.Image = "rbxassetid://11718498816"
 
 posto.Name = "posto"
 posto.Parent = Open
