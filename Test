@@ -45,12 +45,12 @@ repeat wait(1) until game:IsLoaded()
 
 _G.Setting_table = {
     Auto_Farm = false,
-    FastAttack = false,
+    FastAttack = true,
 	Auto_Buso = true,
 	Auto_Ken = true,
 	Show_Damage = true,
-	NoClip = false,
-	Save_Member = false,
+	NoClip = true,
+	Save_Member = true,
 	Melee_A = true,
 	Defense_A = true,
 	SkillZ = true,
