@@ -275,7 +275,7 @@ Tab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Tab.Position = UDim2.new(0, 5, 0, 30)
 --Tab.CornerRadius = UDim.new(0,5)
 Tab.Size = UDim2.new(0, 0, 0, 0)
---Tab.Size = UDim2.new(0, 130, 0, 335)
+--Tab.Size = UDim2.new(0, 150, 0, 365)
 
 --local TabCorner = Instance.new("UICorner")
 local TabCorner = Instance.new("UIListLayout")
@@ -326,8 +326,8 @@ MainPage.Name = "MainPage"
 MainPage.Parent = Page
 MainPage.ClipsDescendants = true
 MainPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MainPage.BackgroundTransparency = 0.700
-MainPage.Size = UDim2.new(0, 380, 0, 286)
+MainPage.BackgroundTransparency = 1.000
+MainPage.Size = UDim2.new(0, 410, 0, 316)
 
 local PageList = Instance.new("Folder")
 PageList.Name = "PageList"
