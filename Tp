@@ -26,7 +26,7 @@ UICorner.Parent = Open
 LOGO1.Name = "LOGO1"
 LOGO1.Parent = Open
 LOGO1.BackgroundColor3 = Color3.fromRGB(16, 2, 4)
-LOGO1.BackgroundTransparency = 0.300
+LOGO1.BackgroundTransparency = 0.700
 LOGO1.Position = UDim2.new(-0.115384616, 0, -0.245283023, 0)
 LOGO1.Size = UDim2.new(0, 55, 0, 38)
 LOGO1.Image = "rbxassetid://11719216448"
@@ -7768,7 +7768,7 @@ Setting:Toggle("Remove attack Animation",false,function(value)
  end)
  
 
-Setting:Toggle("Fast Attack [1]",true,function(value)
+Setting:Toggle("Fast Attack [1]",false,function(value)
  _G.FastAttack2 = value
  end)
 
