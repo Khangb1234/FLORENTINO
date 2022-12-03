@@ -28,7 +28,7 @@ LOGO1.Parent = Open
 LOGO1.BackgroundColor3 = Color3.fromRGB(16, 2, 4)
 LOGO1.BackgroundTransparency = 1.000
 LOGO1.Position = UDim2.new(-0.115384616, 0, -0.245283023, 0)
-LOGO1.Size = UDim2.new(0, 55, 0, 38)
+LOGO1.Size = UDim2.new(0, 45, 0, 28)
 LOGO1.Image = "rbxassetid://11724695429"
 
 posto.Name = "posto"
@@ -313,7 +313,7 @@ PPD.PaddingTop = UDim.new(0, 10)
 local Page = Instance.new("Frame")
 Page.Name = "Page"
 Page.Parent = Main
-Page.BackgroundColor3 = Color3.fromRGB(36, 4, 2)
+Page.BackgroundColor3 = Color3.fromRGB(3, 54, 70)
 Page.Position = UDim2.new(0.255426834, 0, 0.086000003, 0)
 Page.Size = UDim2.new(0, 410, 0, 316)
 
