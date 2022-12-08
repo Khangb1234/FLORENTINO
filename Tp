@@ -2336,13 +2336,13 @@ SelectModeFarm = "Normal Mode";
  function TP(P1)
  Distance = (P1.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
  if Distance < 250 then
- Speed = 1200
+ Speed = 700
  elseif Distance < 500 then
- Speed = 1200
+ Speed = 700
  elseif Distance < 1000 then
- Speed = 1200
+ Speed = 700
  elseif Distance >= 1000 then
- Speed = 1200
+ Speed = 700
  end
  game:GetService("TweenService"):Create(
   game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -2359,7 +2359,7 @@ SelectModeFarm = "Normal Mode";
  local inf = Instance.new("ParticleEmitter")
  inf.Acceleration = Vector3.new(0,0,0)
  inf.Archivable = true
- inf.Drag = 20
+ inf.Drag = 50
  inf.EmissionDirection = Enum.NormalId.Top
  inf.Enabled = true
  inf.Lifetime = NumberRange.new(0,0)
