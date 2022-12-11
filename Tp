@@ -2225,7 +2225,7 @@ SelectModeFarm = "Normal Mode";
   Bb.AlwaysOnTop = true
   local Textlb = Instance.new("TextLabel", Bb)
   Textlb.Font = "GothamBold"
-  Textlb.FontSize = "Size14"
+  Textlb.FontSize = "Size10"
   Textlb.Size = UDim2.new(1,0,1,0)
   Textlb.BackgroundTransparency = 1
   Textlb.TextStrokeTransparency = 0.5
@@ -2336,13 +2336,13 @@ SelectModeFarm = "Normal Mode";
  function TP(P1)
  Distance = (P1.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
  if Distance < 250 then
- Speed = 700
+ Speed = 600
  elseif Distance < 500 then
- Speed = 700
+ Speed = 600
  elseif Distance < 1000 then
- Speed = 700
+ Speed = 600
  elseif Distance >= 1000 then
- Speed = 700
+ Speed = 600
  end
  game:GetService("TweenService"):Create(
   game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -2359,14 +2359,14 @@ SelectModeFarm = "Normal Mode";
  local inf = Instance.new("ParticleEmitter")
  inf.Acceleration = Vector3.new(0,0,0)
  inf.Archivable = true
- inf.Drag = 50
+ inf.Drag = 30
  inf.EmissionDirection = Enum.NormalId.Top
  inf.Enabled = true
  inf.Lifetime = NumberRange.new(0,0)
  inf.LightInfluence = 0
  inf.LockedToPart = true
  inf.Name = "Agility"
- inf.Rate = 500
+ inf.Rate = 600
  local numberKeypoints2 = {
   NumberSequenceKeypoint.new(0, 0);
   NumberSequenceKeypoint.new(1, 4);
@@ -7636,11 +7636,11 @@ spawn(function()
   end)
  end)
 
-Setting:Toggle("Bring Mob",true,function(value)
+Setting:Toggle("Bring Mob",false,function(value)
  _G.BringMonster = value
 end)
 
-    Setting:Toggle("Magnet",true,function(vu)
+    Setting:Toggle("Magnet",false,function(vu)
 
     _G.MagnetActive = vu
 
@@ -7670,7 +7670,7 @@ spawn(function()
 		end
     end
 end)
-Setting:Toggle("Bring Mob Fast",true,function(Mag)
+Setting:Toggle("Bring Mob Fast",false,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
@@ -7768,7 +7768,7 @@ Setting:Toggle("Remove attack Animation",false,function(value)
  end)
  
 
-Setting:Toggle("Fast Attack [1]",false,function(value)
+Setting:Toggle("Fast Attack [1]",true,function(value)
  _G.FastAttack2 = value
  end)
 
