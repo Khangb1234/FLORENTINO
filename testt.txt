@@ -1,1 +1,1 @@
-{"keyiskhanghandsome"}
+getgenv().Key = ("khanghandsome")
